@@ -1,10 +1,15 @@
 # Aurora Coworking Ljubljana
 
-> Community-run coworking space at Železna cesta 14 (level 1), 1000 Ljubljana, Slovenia, close to the bus and train stations. Part of Aurora Coworking, Slovenia's oldest coworking network. Two memberships: Fixed (180€ + VAT) and Flex (120€ + VAT), both with 24/7 access and meeting rooms.
+> Member-run coworking space at Železna cesta 14 (level 1), 1000 Ljubljana, Slovenia, a short walk from the train and bus station. Part of Aurora Coworking. Two memberships: Flex (120€ + VAT a month, any free desk) and Fixed (180€ + VAT a month, your own desk), both with 24/7 access, two call booths (Zürich, Wrocław), two meeting rooms (Bohinj up to 10 people, Otočec), free coffee and a kitchen with fridge. First visit is free, coffee included.
 
 ## Pages
 
-- [Aurora Coworking Ljubljana](https://lj.auroracoworking.com/index.md): the whole page as Markdown: location, approach, memberships and prices, members, contact.
+- [Home](https://lj.auroracoworking.com/index.md): the space, prices, members and what they build, location, first-visit booking, FAQ.
+- [Coworking in Ljubljana](https://lj.auroracoworking.com/coworking-ljubljana/index.md): overview, prices and what's included.
+- [Hot desk / Flex desk](https://lj.auroracoworking.com/hot-desk-ljubljana/index.md): the Flex membership.
+- [Meeting rooms & call booths](https://lj.auroracoworking.com/meeting-room-ljubljana/index.md): Bohinj, Otočec, Zürich, Wrocław.
+- [Digital nomads](https://lj.auroracoworking.com/digital-nomads-ljubljana/index.md): working remotely from Ljubljana.
+- [Slovenščina](https://lj.auroracoworking.com/sl/index.md): the same in Slovenian.
 
 ## Related
 

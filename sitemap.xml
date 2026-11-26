@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lj.auroracoworking.com/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://lj.auroracoworking.com/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lj.auroracoworking.com/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://lj.auroracoworking.com/sl/"/></url>
+  <url><loc>https://lj.auroracoworking.com/sl/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lj.auroracoworking.com/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://lj.auroracoworking.com/sl/"/></url>
+  <url><loc>https://lj.auroracoworking.com/coworking-ljubljana/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://lj.auroracoworking.com/hot-desk-ljubljana/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://lj.auroracoworking.com/meeting-room-ljubljana/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://lj.auroracoworking.com/digital-nomads-ljubljana/</loc><lastmod>2026-11-26</lastmod></url>
 </urlset>

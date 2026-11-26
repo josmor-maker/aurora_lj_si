@@ -2,41 +2,62 @@
 
 *Your home office away from home.*
 
-**Address:** Železna cesta 14, level 1, 1000 Ljubljana, Slovenia ([map](https://maps.app.goo.gl/CS66RaU6LTbjLimk7)). Close to the bus and train stations.
+**Address:** Železna cesta 14, level 1, 1000 Ljubljana, Slovenia ([map](https://maps.app.goo.gl/CS66RaU6LTbjLimk7)). A short walk from the train and bus station.
 
-Coworking is more about community, growth, and inspiration than anything else. We are creating with our members a space for entrepreneurs, freelancers, and independent professionals to thrive. And our location is the best!
+A coworking space run by the people who work in it. Desks by big windows, two call booths, two meeting rooms, a full fridge and coffee that's actually good. Open 24/7 for members.
 
-Contact: [info@auroracoworking.com](mailto:info@auroracoworking.com) · [LinkedIn](https://www.linkedin.com/company/98150111/) · [Meetup](https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/) · [Instagram](https://www.instagram.com/auroracoworking)
+## What's inside
 
-Aurora Coworking is also in [Murska Sobota](https://ms.auroracoworking.com) and [Celje](https://ce.auroracoworking.com). Network home page: [auroracoworking.com](https://www.auroracoworking.com).
+- **Call booths Zürich & Wrocław:** two soundproof one-person booths for calls and video meetings.
+- **Meeting rooms Bohinj & Otočec:** glass-walled rooms; Bohinj seats 10 around an oak table with a screen, projector, whiteboard and flipchart; Otočec is a smaller frosted-glass room. Free for members.
+- **Proper coffee:** espresso machine and grinder, free, included in every membership and in your first visit.
+- **Fridge & kitchen:** bring lunch, keep drinks cold.
+- **Desks by the windows:** fixed members leave their screens set up.
+- **24/7 access**, weekends included.
+- **Lounge:** a glass-walled corner room with sofas and a high table for lunch.
+- Also: printer, dishwasher, air conditioning, lots of daylight, community events on Meetup.
 
-## A unique approach (member-centered)
+Walking in: the call booths are on your left, the Bohinj meeting room on your right and the lounge straight ahead; the open floor opens up to the right along the windows, with Otočec at its far end.
 
-Aurora Coworking Ljubljana is a private self-sustaining community-building initiative, not a business. We focus on members, not square meters or office spaces. Our operations are designed to maximize member benefits.
+The home page has an interactive 3D map of the space showing which desks are free for flex members.
 
-## Easy and reliable (simplicity)
-
-All our members enjoy the same services. Two membership types: Fixed, for the members that require a fixed desk. Flex, for the members with a variable working schedule.
-
-## Membership
+## Prices
 
 | Membership | Price | For whom |
 |---|---|---|
-| Fixed | 180€ + DDV (VAT) | Members who wish to keep their space fixed, bring their screens and accessories. |
-| Flex | 120€ + DDV (VAT) | Entrepreneurs and freelancers with flexible schedules. |
+| Flex | 120€ + VAT a month | Any free desk, any day. For freelancers and founders with a changing schedule. |
+| Fixed | 180€ + VAT a month | Your own desk; leave your monitors and gear. |
 
-Both include 24/7 access to the space, meeting room booking, and access to all facilities and meeting rooms.
+Both include 24/7 access, call booths, meeting rooms, coffee, kitchen and community events. To join without a visit, fill in the [membership form](https://forms.office.com/e/ndv7CxrEqY).
 
-To join, fill in the [membership form](https://forms.office.com/e/ndv7CxrEqY). We will contact you to coordinate details and answer any questions you may have.
+## Who's in the building
 
-## Who is in the building?
+Marko Balažic, Vito Meznaric, Manuel Wedra, Boštjan Cigan, Andrew Stetsenko, Zorica Velkovska, Jan Pristovnik, Mauricio Sardi, Jani Nedeljko, Rok Sušnik, Danilo Prelevikj, Maria Eltsova.
 
-Marko Balažic, Zorica Velkovska, Boštjan Cigan, Jan Pristovnik, Mauricio Sardi, Manuel Wedra, Andrew Stetsenko, Jani Nedeljko, Vito Meznaric, Rok Sušnik, Danilo Prelevikj, Maria Eltsova.
+## What members are working on
 
-## Special thanks
+- [GrandpaCAD](https://grandpacad.com/) (Vito Meznaric): text or photo to dimensionally accurate 3D models, ready to print.
+- [ProductAI](https://productai.photo/) (Marko Balažic): accurate AI product photos, videos and ads for online shops.
+- [Sinergija Slovenija](https://www.sinergija.si/) (Manuel Wedra): production planning and quoting software for print shops.
+- [Chalkenso](https://chalkenso.com/) (Boštjan Cigan): AI course design for trainers and schools.
+- [Specialty kava](https://specialtykava.si/) (Andrew Stetsenko): a guide to specialty coffee in Slovenia.
 
-[SiliconGardens](https://silicongardens.com) and [Kyuriosity Ventures](https://kyuriosity.com).
+## First visit
+
+Pick a day on [the booking form](https://lj.auroracoworking.com/#visit): a tour, a desk for the day, and the coffee is on us. Or email info@auroracoworking.com.
+
+## FAQ
+
+- **Can I see the space before joining?** Yes, book a first visit.
+- **How much does it cost?** Flex 120€ + VAT a month, Fixed 180€ + VAT a month.
+- **Is it open at night and on weekends?** Yes, 24/7 for members.
+- **How do I book a booth or a meeting room?** Members book on a shared calendar; included in the membership.
+- **Who runs Aurora?** A self-sustaining, community-building initiative, part of the Aurora Coworking network (also in Murska Sobota).
+
+Contact: [info@auroracoworking.com](mailto:info@auroracoworking.com) · [LinkedIn](https://www.linkedin.com/company/98150111/) · [Meetup](https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/) · [Instagram](https://www.instagram.com/auroracoworking)
+
+Special thanks: [SiliconGardens](https://silicongardens.com) and [Kyuriosity Ventures](https://kyuriosity.com).
 
 ---
 
-© Aurora Coworking, an initiative of Lincoln Island Initiatives, Skrivnostni Otok d.o.o. so. p. [Privacy Policy & Terms of Use](https://lincolnisland.com/#terms).
+© Aurora Coworking · Skrivnostni Otok d.o.o. so. p. [Privacy Policy & Terms of Use](https://lincolnisland.com/#terms).

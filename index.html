@@ -1,176 +1,479 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Aurora Coworking Ljubljana</title>
-<meta name="description" content="Aurora Coworking Ljubljana - Coworking Space in Ljubljana, Slovenia. Close to the bus and train stations.">
+<meta name="theme-color" content="#FFF9EC">
+<title>Coworking Ljubljana · Aurora Coworking, Železna cesta 14</title>
+<meta name="description" content="Member-run coworking space in Ljubljana, a short walk from the train and bus station. 24/7 access, two call booths, two meeting rooms, free coffee. Flex 120€, fixed desk 180€ a month. First visit and coffee are on us.">
 <link rel="canonical" href="https://lj.auroracoworking.com/">
+<link rel="alternate" hreflang="en" href="https://lj.auroracoworking.com/">
+<link rel="alternate" hreflang="sl" href="https://lj.auroracoworking.com/sl/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lj.auroracoworking.com/">
 <meta property="og:title" content="Aurora Coworking Ljubljana">
-<meta property="og:description" content="Coworking space in Ljubljana, Slovenia. Close to the bus and train stations.">
+<meta property="og:description" content="Member-run coworking next to Ljubljana's train and bus station. 24/7, call booths, meeting rooms, free coffee. Come for a first visit, coffee's on us.">
 <meta property="og:image" content="https://lj.auroracoworking.com/assets/img/ljubljana-illustration.png">
 <link rel="icon" href="/assets/img/aurora-logo.jpg">
 <link rel="alternate" type="text/markdown" href="/index.md" title="This page as Markdown">
-<link rel="preload" href="/assets/fonts/inter-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/merriweather-sans-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css">
+<script>document.documentElement.classList.remove("no-js");
+  // The meeting-room calendars used to live at /#ljmeetingrooms on Carrd. Keep old links and QR codes working.
+  if (location.hash.toLowerCase() === "#ljmeetingrooms") location.replace("/meeting-rooms/");
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "CoworkingSpace",
-  "name": "Aurora Coworking Ljubljana",
-  "url": "https://lj.auroracoworking.com/",
-  "email": "info@auroracoworking.com",
-  "image": "https://lj.auroracoworking.com/assets/img/space/space-3.jpg",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Železna cesta 14, level 1",
-    "postalCode": "1000",
-    "addressLocality": "Ljubljana",
-    "addressCountry": "SI"
-  },
-  "openingHours": "Mo-Su 00:00-23:59",
-  "parentOrganization": { "@type": "Organization", "name": "Aurora Coworking", "url": "https://www.auroracoworking.com" },
-  "sameAs": [
-    "https://www.linkedin.com/company/98150111/",
-    "https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/",
-    "https://www.instagram.com/auroracoworking"
+  "@graph": [
+    {
+      "@type": "CoworkingSpace",
+      "@id": "https://lj.auroracoworking.com/#space",
+      "name": "Aurora Coworking Ljubljana",
+      "url": "https://lj.auroracoworking.com/",
+      "email": "info@auroracoworking.com",
+      "image": ["https://lj.auroracoworking.com/assets/img/space/space-3.jpg", "https://lj.auroracoworking.com/assets/img/space/space-2.jpg"],
+      "logo": "https://lj.auroracoworking.com/assets/img/aurora-logo.jpg",
+      "priceRange": "120€–180€ per month + VAT",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Železna cesta 14, level 1",
+        "postalCode": "1000",
+        "addressLocality": "Ljubljana",
+        "addressCountry": "SI"
+      },
+      "hasMap": "https://maps.app.goo.gl/CS66RaU6LTbjLimk7",
+      "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "24/7 access for members", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Call booths (Zürich, Wrocław)", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Meeting rooms (Bohinj, Otočec)", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Free coffee", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Kitchen with fridge", "value": true }
+      ],
+      "makesOffer": [
+        { "@type": "Offer", "name": "Flex membership", "price": "120", "priceCurrency": "EUR", "description": "Any free desk, 24/7 access, meeting rooms and booths. Price per month, VAT not included." },
+        { "@type": "Offer", "name": "Fixed membership", "price": "180", "priceCurrency": "EUR", "description": "Your own desk, leave your screens, 24/7 access, meeting rooms and booths. Price per month, VAT not included." }
+      ],
+      "parentOrganization": { "@type": "Organization", "name": "Aurora Coworking", "url": "https://www.auroracoworking.com" },
+      "sameAs": [
+        "https://www.linkedin.com/company/98150111/",
+        "https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/",
+        "https://www.instagram.com/auroracoworking"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Can I see the space before joining?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a first visit with the form on this page. A member shows you around, and the coffee is on us." } },
+        { "@type": "Question", "name": "How much does coworking in Ljubljana cost at Aurora?", "acceptedAnswer": { "@type": "Answer", "text": "Flex membership is 120€ + VAT a month and a fixed desk is 180€ + VAT a month. Both include 24/7 access, the call booths, the meeting rooms, coffee and the kitchen." } },
+        { "@type": "Question", "name": "Where is Aurora Coworking Ljubljana?", "acceptedAnswer": { "@type": "Answer", "text": "Železna cesta 14, level 1, 1000 Ljubljana. It is a short walk from the Ljubljana train and bus station." } },
+        { "@type": "Question", "name": "Is the space open at night and on weekends?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Members have access 24 hours a day, 7 days a week." } },
+        { "@type": "Question", "name": "Can I take calls and hold meetings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. There are two one-person call booths (Zürich and Wrocław) and two meeting rooms (Bohinj, for up to 10 people, and Otočec). Members book them on a shared calendar." } }
+      ]
+    }
   ]
 }
-</script>
-<script>
-  // The meeting-room calendars used to live at /#ljmeetingrooms on Carrd. Keep old links and QR codes working.
-  if (location.hash.toLowerCase() === "#ljmeetingrooms") location.replace("/meeting-rooms/");
 </script>
 </head>
 <body id="top">
 
-<header class="hero wrap">
-  <a href="https://www.auroracoworking.com"><img class="logo" src="/assets/img/aurora-logo.jpg" alt="Aurora Coworking Logo" width="140" height="215"></a>
-  <p class="eyebrow">Your home office away from home</p>
-  <h1>Aurora Coworking Ljubljana</h1>
-  <p class="address"><a href="https://maps.app.goo.gl/CS66RaU6LTbjLimk7">Železna cesta 14, level 1, 1000 Ljubljana.</a></p>
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/assets/img/aurora-logo.jpg" alt="" width="26" height="40"><span>Aurora Coworking<small>Ljubljana</small></span></a>
+    <ul>
+      <li><a href="#space">The space</a></li>
+      <li><a href="#map">3D map</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#members">Members</a></li>
+      <li><a href="#location">Location</a></li>
+    </ul>
+    <a class="lang" href="/sl/" hreflang="sl" lang="sl" title="Slovenščina">SL</a>
+    <a class="btn" href="#visit">Book a visit</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <a class="address-chip" href="https://maps.app.goo.gl/CS66RaU6LTbjLimk7"><b>LJ</b> Železna cesta 14, level 1 · by the train station</a>
+      <h1>Your home office <em>away from home</em> in Ljubljana.</h1>
+      <p class="lead">A coworking space run by the people who work in it. Desks by big windows, two call booths, two meeting rooms, a full fridge and coffee that's actually good. Open 24/7 for members.</p>
+      <ul class="buttons" style="margin:0">
+        <li><a class="btn" href="#visit">Book a first visit ☕ coffee's on us</a></li>
+        <li><a class="btn ghost" href="#prices">See prices</a></li>
+      </ul>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <img class="badge" src="/assets/img/ljubljana-illustration.png" alt="" width="768" height="768" fetchpriority="high">
+      <div class="sticker s1">from 120€<small>a month + VAT</small></div>
+      <div class="sticker s2">Open 24/7<small>for members</small></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div><strong>Short walk</strong><span>from the train &amp; bus station</span></div>
+      <div><strong>24/7</strong><span>access, weekends too</span></div>
+      <div><strong>2 + 2</strong><span>call booths + meeting rooms</span></div>
+      <div><strong>120€ / 180€</strong><span>flex / fixed desk, per month</span></div>
+    </div>
+  </div>
 </header>
 
 <main>
 
-  <section class="wrap" style="padding-top:2rem">
-    <div class="narrow">
-      <p>Coworking is more about community, growth, and inspiration than anything else. We are creating with our members a space for entrepreneurs, freelancers, and independent professionals to thrive. <strong style="font-weight:400">And our location is the best!</strong><br>
-      We can send you more details directly to your email address:</p>
-    </div>
-    <ul class="social" aria-label="Contact and social">
-      <li><a href="https://www.linkedin.com/company/98150111/"><svg aria-hidden="true"><use href="/assets/icons.svg#linkedin"/></svg><span class="sr">LinkedIn</span></a></li>
-      <li><a href="https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/"><svg aria-hidden="true"><use href="/assets/icons.svg#meetup"/></svg><span class="sr">Meetup</span></a></li>
-      <li><a href="mailto:info@auroracoworking.com"><svg aria-hidden="true"><use href="/assets/icons.svg#email"/></svg><span class="sr">Email</span></a></li>
-      <li><a href="https://www.instagram.com/auroracoworking"><svg aria-hidden="true"><use href="/assets/icons.svg#instagram"/></svg><span class="sr">Instagram</span></a></li>
-    </ul>
-    <ul class="buttons">
-      <li><a class="btn" href="https://maps.app.goo.gl/CS66RaU6LTbjLimk7">Location</a></li>
-      <li><a class="btn" href="https://www.auroracoworking.com">Back to home page</a></li>
-    </ul>
-  </section>
-
-  <section class="wrap center" aria-label="The space">
-    <div class="space">
-      <img src="/assets/img/space/space-1.jpg" alt="Aurora Coworking Ljubljana" width="540" height="720" loading="lazy">
-      <img src="/assets/img/space/space-2.jpg" alt="Aurora Coworking Ljubljana" width="540" height="720" loading="lazy">
-      <img src="/assets/img/space/space-3.jpg" alt="Aurora Coworking Ljubljana" width="540" height="720" loading="lazy">
-      <img src="/assets/img/space/space-4.jpg" alt="Aurora Coworking Ljubljana" width="540" height="720" loading="lazy">
-    </div>
-    <img class="illustration" src="/assets/img/ljubljana-illustration.png" alt="Great illustration by Marko from Shape Labs." width="768" height="768" loading="lazy">
-    <p style="margin-top:1.5rem">We are also in:</p>
-    <ul class="buttons" style="margin-top:.5rem">
-      <li><a class="btn" href="https://ms.auroracoworking.com">Murska Sobota</a></li>
-      <li><a class="btn" href="https://ce.auroracoworking.com">Celje</a></li>
-    </ul>
-  </section>
-
-  <section class="wrap">
-    <div class="split">
-      <div>
-        <p class="kicker">Member-centered</p>
-        <h2>A unique approach</h2>
-        <p>Aurora Coworking Ljubljana is a private self-sustaining community-building initiative, not a business. We focus on members, not square meters or office spaces. Our operations are designed to maximize member benefits.</p>
+  <section id="space">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">What's inside</p>
+        <h2>Everything you need to get work done. Nothing you pay extra for.</h2>
+        <p class="lead">Every member gets the same things. No add-ons, no credits, no "meeting room hours".</p>
       </div>
-      <div>
-        <p class="kicker">Simplicity</p>
-        <h2>Easy and reliable</h2>
-        <p>All our members enjoy the same services.<br>
-        Two membership types: Fixed, for the members that require a fixed desk. Flex, for the members with a variable working schedule.</p>
+      <div class="amenities">
+        <article class="amenity wide reveal">
+          <img src="/assets/img/illustrations/booth.webp" alt="Illustration of a person on a video call in a soundproof booth" width="720" height="720" loading="lazy">
+          <div>
+            <span class="tag">2 booths</span>
+            <h3>Call booths: Zürich &amp; Wrocław</h3>
+            <p>Two soundproof one-person booths for calls and video meetings. Close the door, talk as loud as you like. Book a slot on the shared calendar or just hop in when it's free.</p>
+          </div>
+        </article>
+        <article class="amenity reveal">
+          <img src="/assets/img/illustrations/coffee.webp" alt="Illustration of a moka pot, mugs and a coffee grinder" width="720" height="720" loading="lazy">
+          <div><span class="tag">Free</span><h3>Proper coffee</h3><p>A real espresso machine and grinder. Included in every membership, and in your first visit.</p></div>
+        </article>
+        <article class="amenity reveal">
+          <img src="/assets/img/illustrations/fridge.webp" alt="Illustration of an open fridge with lunch boxes" width="720" height="720" loading="lazy">
+          <div><span class="tag">Kitchen</span><h3>Fridge &amp; kitchen</h3><p>Bring lunch from home, keep your drinks cold. Eat together or at your desk.</p></div>
+        </article>
+        <article class="amenity wide reveal">
+          <img src="/assets/img/illustrations/meeting-room.webp" alt="Illustration of a meeting room with a long table and a wall screen" width="720" height="720" loading="lazy">
+          <div>
+            <span class="tag">2 rooms</span>
+            <h3>Meeting rooms: Bohinj &amp; Otočec</h3>
+            <p>Glass-walled rooms for client meetings, workshops and team days. Bohinj seats 10 around an oak table, with a screen, projector, whiteboard and flipchart. Members book both for free.</p>
+          </div>
+        </article>
+        <article class="amenity reveal">
+          <img src="/assets/img/illustrations/desk.webp" alt="Illustration of a desk with a monitor by a window" width="720" height="720" loading="lazy">
+          <div><span class="tag">Desks</span><h3>Desks by the windows</h3><p>Big tables, lots of daylight. Fixed members leave their screens set up.</p></div>
+        </article>
+        <article class="amenity reveal">
+          <img src="/assets/img/illustrations/open-24-7.webp" alt="Illustration of a door with a sun, a moon and a key card" width="720" height="720" loading="lazy">
+          <div><span class="tag">24/7</span><h3>Day and night</h3><p>Early bird or night owl, your access works around the clock, weekends included.</p></div>
+        </article>
+      </div>
+      <ul class="also" aria-label="Also in the space">
+        <li>Lounge room with sofas</li><li>High table for lunch</li><li>Printer</li><li>Dishwasher</li><li>Air conditioning</li><li>Lots of daylight</li><li>Community events on Meetup</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="map-section" id="map" aria-labelledby="map-title">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="wrap" style="position:relative">
+      <div class="section-head">
+        <p class="eyebrow">Look around</p>
+        <h2 id="map-title">Walk through the space in 3D</h2>
+        <p>Drag to turn it, tap a place to see what's there. Yellow desks with a FLEX card are free for flex members today; white ones belong to fixed members.</p>
+      </div>
+      <div class="map-shell" data-space-map>
+        <canvas class="map-canvas" aria-label="Interactive 3D map of Aurora Coworking Ljubljana"></canvas>
+        <div class="map-labels"></div>
+        <div class="map-tip" role="status"></div>
+        <div class="map-loading">Loading the space…</div>
+        <div class="map-hint">Drag to turn it · click a place to fly there</div>
+        <aside class="map-card" aria-live="polite">
+          <button class="close" type="button" aria-label="Close">×</button>
+          <img alt="" width="720" height="405">
+          <div class="body"><h3></h3><p></p><a class="link" href="#visit">Come and see it</a></div>
+        </aside>
+      </div>
+      <div class="map-chips" role="toolbar" aria-label="Jump to a place"></div>
+      <div class="map-legend">
+        <span><i style="background:var(--sun)"></i>Free desk <span class="count" data-count="free"></span></span>
+        <span><i style="background:#F2F2EF"></i>Fixed desk, taken <span class="count" data-count="taken"></span></span>
+        <span><i style="background:#fff"></i>Booths &amp; rooms (book on the calendar)</span>
+      </div>
+      <noscript><p class="map-fallback">The 3D map needs JavaScript. Everything in it is listed in "What's inside" above.</p></noscript>
+    </div>
+  </section>
+
+  <section id="prices">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <p class="eyebrow">Prices</p>
+        <h2>Two memberships. Same perks.</h2>
+        <p class="lead" style="margin:0 auto">Pick a desk that's yours, or any free desk when you come in. Everything else is the same for everyone.</p>
+      </div>
+      <div class="plans">
+        <article class="plan reveal">
+          <h3>Flex</h3>
+          <p>For freelancers and founders with a changing schedule.</p>
+          <p class="price">120€ <small>/ month + VAT</small></p>
+          <ul>
+            <li>Any free desk, any day</li>
+            <li>24/7 access</li>
+            <li>Call booths &amp; meeting rooms</li>
+            <li>Free coffee, kitchen &amp; fridge</li>
+            <li>Community events</li>
+          </ul>
+          <a class="btn ghost" href="#visit" data-plan="flex">Try it first</a>
+        </article>
+        <article class="plan featured reveal">
+          <span class="flag">Your own spot</span>
+          <h3>Fixed</h3>
+          <p>For people who want their own desk and their own screens.</p>
+          <p class="price">180€ <small>/ month + VAT</small></p>
+          <ul>
+            <li>Your own desk, always set up</li>
+            <li>Leave your monitors &amp; gear</li>
+            <li>24/7 access</li>
+            <li>Call booths &amp; meeting rooms</li>
+            <li>Free coffee, kitchen &amp; fridge</li>
+          </ul>
+          <a class="btn" href="#visit" data-plan="fixed">Try it first</a>
+        </article>
+      </div>
+      <p class="center note" style="margin-top:2rem">Prices without VAT (DDV). Ready to join without a visit? <a class="link" href="https://forms.office.com/e/ndv7CxrEqY">Fill in the membership form</a>.</p>
+    </div>
+  </section>
+
+  <section id="members" style="background:var(--paper);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Who's in the building</p>
+        <h2>Founders, developers, designers and the odd coffee nerd.</h2>
+        <p class="lead">Aurora is a community first. These are the people you'll share the coffee machine with.</p>
+      </div>
+      <ul class="members" data-honeycomb>
+        <li><a href="https://www.linkedin.com/in/markobalazic/"><img src="/assets/img/members/marko-balazic.jpg" alt="" loading="lazy" width="200" height="200"><span>Marko Balažic</span><small>ProductAI</small></a></li>
+        <li><a href="https://otiv.dev/"><img src="/assets/img/members/vito-meznaric.jpg" alt="" loading="lazy" width="200" height="200"><span>Vito Meznaric</span><small>GrandpaCAD</small></a></li>
+        <li><a href="https://www.linkedin.com/in/manuel-wedra-330a28b9/"><img src="/assets/img/members/manuel-wedra.jpg" alt="" loading="lazy" width="200" height="200"><span>Manuel Wedra</span><small>Sinergija</small></a></li>
+        <li><a href="https://www.linkedin.com/in/bostjan-cigan/"><img src="/assets/img/members/bostjan-cigan.jpg" alt="" loading="lazy" width="200" height="200"><span>Boštjan Cigan</span><small>Chalkenso</small></a></li>
+        <li><a href="https://specialtykava.si/"><img src="/assets/img/members/andrew-stetsenko.jpg" alt="" loading="lazy" width="200" height="200"><span>Andrew Stetsenko</span><small>Specialty kava</small></a></li>
+        <li><a href="https://www.linkedin.com/in/zorica-velkovska-33494863/"><img src="/assets/img/members/zorica-velkovska.jpg" alt="" loading="lazy" width="200" height="200"><span>Zorica Velkovska</span></a></li>
+        <li class="hub" aria-hidden="true"><a href="#visit" tabindex="-1"><img src="/assets/img/aurora-logo.jpg" alt="" loading="lazy" width="140" height="215"><span>You next?</span><small>Book a first visit</small></a></li>
+        <li><a href="https://www.linkedin.com/in/jan-pristovnik-305342186/"><img src="/assets/img/members/jan-pristovnik.jpg" alt="" loading="lazy" width="200" height="200"><span>Jan Pristovnik</span></a></li>
+        <li><a href="https://www.linkedin.com/in/mauriciosardi/"><img src="/assets/img/members/mauricio-sardi.jpg" alt="" loading="lazy" width="200" height="200"><span>Mauricio Sardi</span></a></li>
+        <li><a href="https://www.linkedin.com/in/jani-nedeljko/"><img src="/assets/img/members/jani-nedeljko.jpg" alt="" loading="lazy" width="200" height="200"><span>Jani Nedeljko</span></a></li>
+        <li><a href="https://www.linkedin.com/in/rok-susnik/"><img src="/assets/img/members/rok-susnik.jpg" alt="" loading="lazy" width="200" height="200"><span>Rok Sušnik</span></a></li>
+        <li><a href="https://www.linkedin.com/in/daniloprelevikj/"><img src="/assets/img/members/danilo-prelevikj.jpg" alt="" loading="lazy" width="200" height="200"><span>Danilo Prelevikj</span></a></li>
+        <li><a href="https://www.linkedin.com/in/maria-eltsova/"><img src="/assets/img/members/maria-eltsova.jpg" alt="" loading="lazy" width="200" height="200"><span>Maria Eltsova</span></a></li>
+      </ul>
+      <p class="honey-caption" aria-live="polite" data-default="Hover a face to see who it is. Want to be up here? &lt;a class=&quot;link&quot; href=&quot;#visit&quot;&gt;Book a first visit&lt;/a&gt;.">Hover a face to see who it is. Want to be up here? <a class="link" href="#visit">Book a first visit</a>.</p>
+
+      <div class="section-head reveal" style="margin:5rem 0 0">
+        <p class="eyebrow">Built at Aurora</p>
+        <h2>What members are working on</h2>
+        <p class="lead">Products and companies made at these desks. Have a look, try them, say hi in the kitchen.</p>
+      </div>
+      <div class="projects" style="margin-top:2rem">
+        <a class="project reveal" href="https://grandpacad.com/">
+          <span class="dot"></span>
+          <span class="who"><img src="/assets/img/members/vito-meznaric.jpg" alt="" loading="lazy" width="40" height="40">Vito Meznaric</span>
+          <h3>GrandpaCAD</h3>
+          <p>Turns a sentence or a photo into a dimensionally accurate 3D model, ready to print. CAD for people who never learned CAD.</p>
+          <span class="url">grandpacad.com</span>
+        </a>
+        <a class="project reveal" href="https://productai.photo/">
+          <span class="dot"></span>
+          <span class="who"><img src="/assets/img/members/marko-balazic.jpg" alt="" loading="lazy" width="40" height="40">Marko Balažic</span>
+          <h3>ProductAI</h3>
+          <p>Accurate AI product photos, videos and ads from one product shot, for online shops and brands.</p>
+          <span class="url">productai.photo</span>
+        </a>
+        <a class="project reveal" href="https://www.sinergija.si/">
+          <span class="dot"></span>
+          <span class="who"><img src="/assets/img/members/manuel-wedra.jpg" alt="" loading="lazy" width="40" height="40">Manuel Wedra</span>
+          <h3>Sinergija Slovenija</h3>
+          <p>Software for print shops: production planning and quoting, plus custom apps that cut errors on the shop floor.</p>
+          <span class="url">sinergija.si</span>
+        </a>
+        <a class="project reveal" href="https://chalkenso.com/">
+          <span class="dot"></span>
+          <span class="who"><img src="/assets/img/members/bostjan-cigan.jpg" alt="" loading="lazy" width="40" height="40">Boštjan Cigan</span>
+          <h3>Chalkenso</h3>
+          <p>AI course design for trainers and schools: note what happened in class, get a better lesson next time.</p>
+          <span class="url">chalkenso.com</span>
+        </a>
+        <a class="project reveal" href="https://specialtykava.si/">
+          <span class="dot"></span>
+          <span class="who"><img src="/assets/img/members/andrew-stetsenko.jpg" alt="" loading="lazy" width="40" height="40">Andrew Stetsenko</span>
+          <h3>Specialty kava</h3>
+          <p>A guide to specialty coffee in Slovenia: cafés, roasters, events and barista courses.</p>
+          <span class="url">specialtykava.si</span>
+        </a>
+        <a class="project add reveal" href="mailto:info@auroracoworking.com?subject=Add%20my%20project%20to%20the%20Aurora%20site">
+          <h3>Your project here?</h3>
+          <p>Members: send us a line about what you're building and a link.</p>
+          <span class="url">Add yours</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <section class="wrap center" id="members">
-    <h2>Who is in the building? :)</h2>
-    <ul class="members">
-      <li><a href="https://www.linkedin.com/in/markobalazic/"><img src="/assets/img/members/marko-balazic.jpg" alt="Marko Balažic" loading="lazy"><span>Marko Balažic</span></a></li>
-      <li><a href="https://www.linkedin.com/in/zorica-velkovska-33494863/"><img src="/assets/img/members/zorica-velkovska.jpg" alt="Zorica Velkovska" loading="lazy"><span>Zorica Velkovska</span></a></li>
-      <li><a href="https://www.linkedin.com/in/bostjan-cigan/"><img src="/assets/img/members/bostjan-cigan.jpg" alt="Boštjan Cigan" loading="lazy"><span>Boštjan Cigan</span></a></li>
-      <li><a href="https://www.linkedin.com/in/jan-pristovnik-305342186/"><img src="/assets/img/members/jan-pristovnik.jpg" alt="Jan Pristovnik" loading="lazy"><span>Jan Pristovnik</span></a></li>
-      <li><a href="https://www.linkedin.com/in/mauriciosardi/"><img src="/assets/img/members/mauricio-sardi.jpg" alt="Mauricio Sardi" loading="lazy"><span>Mauricio Sardi</span></a></li>
-      <li><a href="https://www.linkedin.com/in/manuel-wedra-330a28b9/"><img src="/assets/img/members/manuel-wedra.jpg" alt="Manuel Wedra" loading="lazy"><span>Manuel Wedra</span></a></li>
-      <li><a href="https://specialtykava.si/"><img src="/assets/img/members/andrew-stetsenko.jpg" alt="Andrew Stetsenko" loading="lazy"><span>Andrew Stetsenko</span></a></li>
-      <li><a href="https://www.linkedin.com/in/jani-nedeljko/"><img src="/assets/img/members/jani-nedeljko.jpg" alt="Jani Nedeljko" loading="lazy"><span>Jani Nedeljko</span></a></li>
-      <li><a href="https://otiv.dev/"><img src="/assets/img/members/vito-meznaric.jpg" alt="Vito Meznaric" loading="lazy"><span>Vito Meznaric</span></a></li>
-      <li><a href="https://www.linkedin.com/in/rok-susnik/"><img src="/assets/img/members/rok-susnik.jpg" alt="Rok Sušnik" loading="lazy"><span>Rok Sušnik</span></a></li>
-      <li><a href="https://www.linkedin.com/in/daniloprelevikj/"><img src="/assets/img/members/danilo-prelevikj.jpg" alt="Danilo Prelevikj" loading="lazy"><span>Danilo Prelevikj</span></a></li>
-      <li><a href="https://www.linkedin.com/in/maria-eltsova/"><img src="/assets/img/members/maria-eltsova.jpg" alt="Maria Eltsova" loading="lazy"><span>Maria Eltsova</span></a></li>
-    </ul>
-  </section>
-
-  <section class="wrap" id="membership">
-    <div class="split">
-      <div>
-        <p class="price">180€ + DDV</p>
-        <h2>Fixed Membership</h2>
-        <p>For members who wish to keep their space fixed, bring their screens and accessories.<br>
-        You get access to our space 24/7, book meeting rooms, and get access to all our facilities and meeting rooms.</p>
-        <p class="center"><a class="btn" href="https://forms.office.com/e/ndv7CxrEqY">Become a member</a></p>
-        <p class="note">The button will open a form. You can share your details and requests. We will contact you to coordinate details and answer any questions you may have.</p>
+  <section id="location">
+    <div class="wrap">
+      <div class="location">
+        <div class="reveal">
+          <p class="eyebrow">Location</p>
+          <h2>Right by the train and bus station.</h2>
+          <p class="lead">Železna cesta 14, level 1, 1000 Ljubljana. Come in by train, bus, bike or car and you're at your desk in minutes.</p>
+          <ol class="steps">
+            <li><b>1</b><span>Walk from Ljubljana's main train and bus station to Železna cesta.</span></li>
+            <li><b>2</b><span>Find number 14 and go up to level 1.</span></li>
+            <li><b>3</b><span>Walk in: call booths on your left, Bohinj on your right, the lounge straight ahead. Say hi, grab a coffee.</span></li>
+          </ol>
+          <ul class="buttons">
+            <li><a class="btn" href="https://maps.app.goo.gl/CS66RaU6LTbjLimk7">Open in Google Maps</a></li>
+            <li><a class="btn ghost" href="#visit">Book a visit</a></li>
+          </ul>
+        </div>
+        <img class="reveal" src="/assets/img/illustrations/commute.webp" alt="Illustration of a commuter with a coffee, a train, a bus and Ljubljana castle" width="720" height="720" loading="lazy">
       </div>
-      <div>
-        <p class="price">120€ + DDV</p>
-        <h2>Flex Membership</h2>
-        <p>Ideal for entrepreneurs and freelancers with flexible schedules. You get access to our space 24/7, book meeting rooms, and get access to all our facilities and meeting rooms.</p>
-        <p class="center"><a class="btn" href="https://forms.office.com/e/ndv7CxrEqY">Become a member</a></p>
-        <p class="note">The button will open a form. You can share your details and requests. We will contact you to coordinate details and answer any questions you may have.</p>
+      <div class="photos">
+        <figure class="reveal"><img src="/assets/img/space/space-1.jpg" alt="Members working at desks by the windows" width="540" height="720" loading="lazy"><figcaption>Desks by the windows</figcaption></figure>
+        <figure class="reveal"><img src="/assets/img/space/space-2.jpg" alt="The Zürich and Wrocław call booths next to the lounge sofa" width="540" height="720" loading="lazy"><figcaption>Zürich &amp; Wrocław booths</figcaption></figure>
+        <figure class="reveal"><img src="/assets/img/space/space-3.jpg" alt="The open-plan coworking floor" width="540" height="720" loading="lazy"><figcaption>The open floor</figcaption></figure>
+        <figure class="reveal"><img src="/assets/img/space/space-4.jpg" alt="Glass-walled meeting room with a long table" width="540" height="720" loading="lazy"><figcaption>Meeting room</figcaption></figure>
       </div>
     </div>
-    <ul class="social" aria-label="Contact and social">
-      <li><a href="https://www.linkedin.com/company/98150111/"><svg aria-hidden="true"><use href="/assets/icons.svg#linkedin"/></svg><span class="sr">LinkedIn</span></a></li>
-      <li><a href="https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/"><svg aria-hidden="true"><use href="/assets/icons.svg#meetup"/></svg><span class="sr">Meetup</span></a></li>
-      <li><a href="mailto:info@auroracoworking.com"><svg aria-hidden="true"><use href="/assets/icons.svg#email"/></svg><span class="sr">Email</span></a></li>
-      <li><a href="https://www.instagram.com/auroracoworking"><svg aria-hidden="true"><use href="/assets/icons.svg#instagram"/></svg><span class="sr">Instagram</span></a></li>
-    </ul>
   </section>
 
-  <section class="wrap center" style="padding-top:6rem">
-    <h2>Special thanks to:</h2>
-    <div class="partners" style="margin-top:2.5rem">
-      <a href="https://silicongardens.com" title="SiliconGardens"><img src="/assets/img/partners/silicongardens.jpg" alt="SIliconGardens - Aurora Coworking Ljubljana" width="1003" height="227" loading="lazy"></a>
-      <a href="https://kyuriosity.com" title="Kyuriosity Ventures"><img src="/assets/img/partners/kyuriosity.png" alt="Kyuriosity Ventures - Aurora Coworking Ljubljana" width="1360" height="277" loading="lazy"></a>
+  <section class="visit" id="visit">
+    <div class="wrap visit-grid">
+      <div>
+        <p class="eyebrow">First visit</p>
+        <h2>Come by. The coffee is on us.</h2>
+        <p class="lead">Pick a day, we'll show you around, you sit at a desk and see how it feels. No pressure, no sales pitch.</p>
+        <ul class="perks">
+          <li>A tour of the space and the booths</li>
+          <li>Free coffee (obviously)</li>
+          <li>Work from a desk for the day</li>
+          <li>Meet the people who work here</li>
+        </ul>
+        <img class="visit-art" src="/assets/img/illustrations/welcome.webp" alt="Illustration of two people shaking hands, one offering a coffee" width="720" height="720" loading="lazy">
+      </div>
+      <form class="form" id="visit-form" action="/api/first-visit" method="post" novalidate>
+        <div data-step="form">
+          <h3>Book your first visit</h3>
+          <div class="row">
+            <div class="field"><label for="v-name">Your name</label><input id="v-name" name="name" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="v-email">Email</label><input id="v-email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <fieldset class="field">
+            <legend>Which day?</legend>
+            <div class="days" data-days></div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>When?</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="time" value="Morning (9–12)" checked><span>Morning<small>9–12</small></span></label>
+              <label class="chip"><input type="radio" name="time" value="Afternoon (13–17)"><span>Afternoon<small>13–17</small></span></label>
+              <label class="chip"><input type="radio" name="time" value="Whole day"><span>Whole day<small>work from here</small></span></label>
+            </div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>Interested in</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="plan" value="Flex"><span>Flex</span></label>
+              <label class="chip"><input type="radio" name="plan" value="Fixed desk"><span>Fixed desk</span></label>
+              <label class="chip"><input type="radio" name="plan" value="Not sure yet" checked><span>Not sure yet</span></label>
+            </div>
+          </fieldset>
+          <div class="field"><label for="v-what">What do you work on? <span class="opt">(optional)</span></label><input id="v-what" name="work" type="text" placeholder="e.g. freelance designer, startup, remote for a company abroad"></div>
+          <div class="field"><label for="v-phone">Phone <span class="opt">(optional, if a call is easier)</span></label><input id="v-phone" name="phone" type="tel" autocomplete="tel"></div>
+          <label class="hp" aria-hidden="true">Leave this empty <input name="company_website" tabindex="-1" autocomplete="off"></label>
+          <button class="btn dark" type="submit">Book my visit ☕</button>
+          <p class="form-error" role="alert"></p>
+          <p class="note" style="margin:.5rem 0 0">We reply by email within a day to confirm. We only use your details to arrange the visit.</p>
+        </div>
+        <div data-step="done" class="form-done" hidden>
+          <div class="cup" aria-hidden="true">☕</div>
+          <h3>See you <span data-when></span>!</h3>
+          <p>We got your request and will confirm by email. Your coffee is waiting.</p>
+          <ul class="buttons center">
+            <li><a class="btn small" data-ics download="aurora-first-visit.ics" href="#">Add to calendar</a></li>
+            <li><a class="btn small ghost" href="https://maps.app.goo.gl/CS66RaU6LTbjLimk7">Directions</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head center reveal"><p class="eyebrow">Questions</p><h2>Good to know</h2></div>
+      <div class="faq">
+        <details><summary>Can I see the space before joining?</summary><p>Yes, and we'd like you to. <a class="link" href="#visit">Book a first visit</a>: a member shows you around, you can work from a desk for the day, and the coffee is on us.</p></details>
+        <details><summary>How much does it cost?</summary><p>Flex is 120€ + VAT a month, a fixed desk is 180€ + VAT a month. Both include 24/7 access, the call booths, the meeting rooms, coffee and the kitchen.</p></details>
+        <details><summary>What's the difference between Flex and Fixed?</summary><p>With Flex you sit at any free desk when you come in. With Fixed the desk is yours: leave your monitors, keyboard and plants set up. Everything else is the same.</p></details>
+        <details><summary>Is it really open at night and on weekends?</summary><p>Yes. Members have access 24 hours a day, 7 days a week.</p></details>
+        <details><summary>How do I book a booth or a meeting room?</summary><p>Members book the Zürich and Wrocław booths and the Bohinj and Otočec meeting rooms on a shared calendar. It's included in the membership.</p></details>
+        <details><summary>Who runs Aurora?</summary><p>Aurora Coworking Ljubljana is a self-sustaining, community-building initiative, not a real-estate business. We focus on members, not square metres. It's part of the Aurora Coworking network, also in Murska Sobota.</p></details>
+      </div>
     </div>
   </section>
 
 </main>
 
-<footer class="wrap">
-  <hr>
-  <p class="narrow">© Aurora Coworking, an initiative of Lincoln Island Initiatives, Skrivnostni Otok d.o.o. so. p. All rights reserved.<br>
-  <a href="https://lincolnisland.com/#terms">Privacy Policy &amp; Terms of Use</a>.</p>
-  <ul class="buttons">
-    <li><a class="btn" href="https://ms.auroracoworking.com">Murska Sobota</a></li>
-    <li><a class="btn" href="https://lj.auroracoworking.com">Ljubljana</a></li>
-    <li><a class="btn" href="https://ce.auroracoworking.com">Celje</a></li>
-  </ul>
-  <ul class="buttons" style="margin-top:0">
-    <li><a class="btn" href="https://www.auroracoworking.com">Back to home page</a></li>
-  </ul>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="/" style="color:#fff"><img src="/assets/img/aurora-logo.jpg" alt="" width="26" height="40"><span>Aurora Coworking<small>Ljubljana</small></span></a>
+        <p style="margin-top:1rem">Železna cesta 14, level 1<br>1000 Ljubljana, Slovenia<br><a href="mailto:info@auroracoworking.com">info@auroracoworking.com</a></p>
+        <ul class="social" aria-label="Social">
+          <li><a href="https://www.linkedin.com/company/98150111/"><svg aria-hidden="true"><use href="/assets/icons.svg#linkedin"/></svg><span class="sr">LinkedIn</span></a></li>
+          <li><a href="https://www.meetup.com/aurora-coworking-ljubljana-events-4-incredipreneurs/"><svg aria-hidden="true"><use href="/assets/icons.svg#meetup"/></svg><span class="sr">Meetup</span></a></li>
+          <li><a href="https://www.instagram.com/auroracoworking"><svg aria-hidden="true"><use href="/assets/icons.svg#instagram"/></svg><span class="sr">Instagram</span></a></li>
+          <li><a href="mailto:info@auroracoworking.com"><svg aria-hidden="true"><use href="/assets/icons.svg#email"/></svg><span class="sr">Email</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Coworking</h4>
+        <ul>
+          <li><a href="/coworking-ljubljana/">Coworking in Ljubljana</a></li>
+          <li><a href="/hot-desk-ljubljana/">Hot desk &amp; flex desk</a></li>
+          <li><a href="/meeting-room-ljubljana/">Meeting room &amp; call booths</a></li>
+          <li><a href="/digital-nomads-ljubljana/">For digital nomads</a></li>
+          <li><a href="/sl/">Coworking Ljubljana (SL)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>This page</h4>
+        <ul>
+          <li><a href="/#space">The space</a></li>
+          <li><a href="/#map">3D map</a></li>
+          <li><a href="/#prices">Prices</a></li>
+          <li><a href="/#members">Members</a></li>
+          <li><a href="/#visit">Book a first visit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Aurora network</h4>
+        <ul>
+          <li><a href="https://www.auroracoworking.com">auroracoworking.com</a></li>
+          <li><a href="https://ms.auroracoworking.com">Murska Sobota</a></li>
+          <li><a href="/meeting-rooms/">Members: room calendars</a></li>
+        </ul>
+        <div class="thanks" aria-label="Special thanks">
+          <a href="https://silicongardens.com" title="SiliconGardens"><img src="/assets/img/partners/silicongardens-white.png" alt="SiliconGardens" width="908" height="142" loading="lazy"></a>
+          <a href="https://kyuriosity.com" title="Kyuriosity Ventures"><img src="/assets/img/partners/kyuriosity-white.png" alt="Kyuriosity Ventures" width="1360" height="277" loading="lazy"></a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© Aurora Coworking · Skrivnostni Otok d.o.o. so. p.</span>
+      <a href="https://lincolnisland.com/#terms">Privacy Policy &amp; Terms of Use</a>
+    </div>
+  </div>
 </footer>
 
+<script src="/assets/js/site.js" defer></script>
+<script type="module" src="/assets/js/space-map.js"></script>
 </body>
 </html>

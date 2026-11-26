@@ -1,0 +1,72 @@
+{
+  "_readme": "Desk map for the 3D view on the home page. Each cluster is 4 desks (x/z in metres from the middle of the room). Set \"fixed\": true for a desk that belongs to a fixed member; everything else shows as free for flex members. Change 'updated' when you edit.",
+  "updated": "2026-11-26",
+  "clusters": [
+    {
+      "id": "A",
+      "x": -4.4,
+      "z": -3.1,
+      "fixed": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "B",
+      "x": -1.0,
+      "z": -3.1,
+      "fixed": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "C",
+      "x": 2.4,
+      "z": -3.1,
+      "fixed": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D",
+      "x": 5.8,
+      "z": -3.1,
+      "fixed": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "E",
+      "x": 4.6,
+      "z": 1.3,
+      "fixed": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F",
+      "x": 8.0,
+      "z": 1.3,
+      "fixed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

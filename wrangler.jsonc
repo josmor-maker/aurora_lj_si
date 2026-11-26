@@ -1,9 +1,16 @@
 // Cloudflare Workers config: serves this repo as a static site (no build step).
+// worker.js only runs for /api/* (the first-visit form); everything else is served straight from the files.
 {
   "name": "aurora-lj",
   "compatibility_date": "2026-11-26",
+  "main": "worker.js",
   "assets": {
     "directory": ".",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    "VISIT_TO": "info@auroracoworking.com"
   }
 }
