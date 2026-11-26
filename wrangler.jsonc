@@ -1,14 +1,13 @@
 // Cloudflare Workers config: serves this repo as a static site (no build step).
-// worker.js only runs for /api/* (the first-visit form); everything else is served straight from the files.
+// Files are served straight from the repo. Requests that match no file (the form's /api/first-visit, unknown URLs)
+// go to worker.js, which handles the form and serves 404.html for the rest. Works with Wrangler 3 and 4.
 {
   "name": "aurora-lj",
   "compatibility_date": "2026-11-26",
   "main": "worker.js",
   "assets": {
     "directory": ".",
-    "binding": "ASSETS",
-    "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*"]
+    "binding": "ASSETS"
   },
   "vars": {
     "VISIT_TO": "info@auroracoworking.com"

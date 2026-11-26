@@ -1,5 +1,5 @@
 // Cloudflare Worker: serves the static site and handles the first-visit form.
-// Only /api/* runs this code (see run_worker_first in wrangler.jsonc); every other path is a static file.
+// Cloudflare serves matching files first; this code only runs for URLs that match no file.
 //
 // Email goes out through Resend (https://resend.com). Set these in Cloudflare (Workers > aurora-lj > Settings > Variables):
 //   RESEND_API_KEY  secret, from Resend
@@ -14,7 +14,12 @@ const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">"
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.pathname !== "/api/first-visit") return env.ASSETS.fetch(request);
+    if (url.pathname !== "/api/first-visit") {
+      const res = await env.ASSETS.fetch(request);
+      if (res.status !== 404) return res;
+      const page = await env.ASSETS.fetch(new Request(new URL("/404", url)));
+      return new Response(page.body, { status: 404, headers: { "content-type": "text/html; charset=utf-8" } });
+    }
     if (request.method !== "POST") return json({ error: "method" }, 405);
 
     let d;
