@@ -1,0 +1,14 @@
+# Aurora Coworking Ljubljana
+
+> Community-run coworking space at Železna cesta 14 (level 1), 1000 Ljubljana, Slovenia, close to the bus and train stations. Part of Aurora Coworking, Slovenia's oldest coworking network. Two memberships: Fixed (180€ + VAT) and Flex (120€ + VAT), both with 24/7 access and meeting rooms.
+
+## Pages
+
+- [Aurora Coworking Ljubljana](https://lj.auroracoworking.com/index.md): the whole page as Markdown: location, approach, memberships and prices, members, contact.
+
+## Related
+
+- [Aurora Coworking network](https://www.auroracoworking.com)
+- [Aurora Coworking Murska Sobota](https://ms.auroracoworking.com)
+- [Membership form](https://forms.office.com/e/ndv7CxrEqY)
+- Contact: info@auroracoworking.com

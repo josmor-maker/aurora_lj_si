@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /meeting-rooms/
+
+Sitemap: https://lj.auroracoworking.com/sitemap.xml
