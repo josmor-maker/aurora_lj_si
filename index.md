@@ -37,8 +37,8 @@ Marko Balažic, Vito Meznaric, Manuel Wedra, Boštjan Cigan, Andrew Stetsenko, Z
 ## What members are working on
 
 - [GrandpaCAD](https://grandpacad.com/) (Vito Meznaric): text or photo to dimensionally accurate 3D models, ready to print.
-- [ProductAI](https://productai.photo/) (Marko Balažic): accurate AI product photos, videos and ads for online shops.
-- [Sinergija Slovenija](https://www.sinergija.si/) (Manuel Wedra): production planning and quoting software for print shops.
+- [ProductAI](https://productai.photo/) (Marko Balažic): product images that turn browsers into buyers. Done for you.
+- [Sinergia](https://sinergia.si/) (Manuel Wedra): a Slovenian music collective and cultural association: electronic music events, workshops and boutique festivals.
 - [Chalkenso](https://chalkenso.com/) (Boštjan Cigan): AI course design for trainers and schools.
 - [Specialty kava](https://specialtykava.si/) (Andrew Stetsenko): a guide to specialty coffee in Slovenia.
 - [Pavone](https://pavone.ai/) (Jani Nedeljko): AI roleplay for sales teams. Reps practice real conversations before the real ones happen and get feedback every time.
