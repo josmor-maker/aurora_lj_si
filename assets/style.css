@@ -418,3 +418,8 @@ footer.site .legal { border-top: 1px solid #45496A; margin-top: 3rem; padding-to
 .honey-caption .proj { display: inline-block; background: var(--sun); border-radius: 999px; padding: .05rem .6rem; margin-left: .35rem; font-size: .85rem; }
 footer.site .social { display: flex; }
 .thanks img[src*="silicongardens"] { height: 26px; }
+/* Comparison table: wider than the text column, scrolls sideways on phones */
+.prose .table-wide { --tw: calc(min(100vw, 72rem) - 3rem); width: var(--tw); margin-left: calc((100% - var(--tw)) / 2); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.prose .table-wide table { min-width: 44rem; }
+.prose tr.us td { background: var(--sun-soft); }
+@media (max-width: 560px) { .prose .table-wide { --tw: calc(100vw - 2rem); } }

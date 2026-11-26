@@ -5,7 +5,7 @@
 ## Pages
 
 - [Home](https://lj.auroracoworking.com/index.md): the space, prices, members and what they build, location, first-visit booking, FAQ.
-- [Coworking in Ljubljana](https://lj.auroracoworking.com/coworking-ljubljana/index.md): overview, prices and what's included.
+- [Ljubljana coworking spaces compared](https://lj.auroracoworking.com/coworking-ljubljana/index.md): Aurora, Pisarna, MP hub, Impact Hub and makerSP_CE side by side (prices, day passes, 24/7, location), checked November 2026.
 - [Hot desk / Flex desk](https://lj.auroracoworking.com/hot-desk-ljubljana/index.md): the Flex membership.
 - [Meeting rooms & call booths](https://lj.auroracoworking.com/meeting-room-ljubljana/index.md): Bohinj, Otočec, Zürich, Wrocław.
 - [Digital nomads](https://lj.auroracoworking.com/digital-nomads-ljubljana/index.md): working remotely from Ljubljana.
