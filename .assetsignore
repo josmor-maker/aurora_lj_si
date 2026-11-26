@@ -4,5 +4,6 @@ README.md
 wrangler.jsonc
 .assetsignore
 .gitignore
+CLAUDE.md
 worker.js
 node_modules
