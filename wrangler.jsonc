@@ -1,0 +1,9 @@
+// Cloudflare Workers config: serves this repo as a static site (no build step).
+{
+  "name": "aurora-lj",
+  "compatibility_date": "2026-11-26",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}

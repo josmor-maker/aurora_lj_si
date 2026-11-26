@@ -45,9 +45,14 @@ python3 -m http.server 8000
 
 Then commit and push to `main`. Before pushing, open the page at a phone width too (browser dev tools), and check the `.md` twin matches.
 
-## Hosting (not decided yet)
+## Hosting
 
-The plan is to keep the files here and serve them from Cloudflare Pages connected to this repo (no build command, output directory `/`). GitHub Pages would also work as-is. DNS stays at FreeDNS: switching a site over is one CNAME change, and Jose does that as the last step, once a site is approved.
+Cloudflare Workers (static assets), connected to this repo. Every push to `main` deploys automatically; other branches get their own preview URL.
+
+- `wrangler.jsonc`: Cloudflare's config. Serves the repo root as-is, no build step; unknown paths show `404.html`.
+- `.assetsignore`: repo files that are not published (README, config).
+
+DNS stays at FreeDNS: switching `lj.auroracoworking.com` over is one CNAME change, which Jose does as the last step once the site is approved. Until then the site is visible only on its `workers.dev` address.
 
 ## Content known to be outdated (left as on Carrd for now)
 
