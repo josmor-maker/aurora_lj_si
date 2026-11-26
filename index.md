@@ -41,6 +41,7 @@ Marko Balažic, Vito Meznaric, Manuel Wedra, Boštjan Cigan, Andrew Stetsenko, Z
 - [Sinergija Slovenija](https://www.sinergija.si/) (Manuel Wedra): production planning and quoting software for print shops.
 - [Chalkenso](https://chalkenso.com/) (Boštjan Cigan): AI course design for trainers and schools.
 - [Specialty kava](https://specialtykava.si/) (Andrew Stetsenko): a guide to specialty coffee in Slovenia.
+- [Pavone](https://pavone.ai/) (Jani Nedeljko): AI roleplay for sales teams. Reps practice real conversations before the real ones happen and get feedback every time.
 
 ## First visit
 
